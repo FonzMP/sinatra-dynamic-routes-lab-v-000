@@ -33,6 +33,10 @@ class App < Sinatra::Base
     word5 = params[:word5]
     @holder = []
     @holder << word1
+    @holder << word2
+    @holder << word3
+    @holder << word4
+    @holder << word5
   end
 
 end
