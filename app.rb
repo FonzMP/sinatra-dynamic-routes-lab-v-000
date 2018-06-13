@@ -48,6 +48,8 @@ class App < Sinatra::Base
       "#{@num1 + @num2}"
     elsif @operator == 'subtract'
       "#{@num1 - @num2}"
+    elsif @operator == 'multiply'
+      "#{@num1 * @num2}"
   end
 
 end
