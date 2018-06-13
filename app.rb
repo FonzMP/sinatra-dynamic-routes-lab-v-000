@@ -41,6 +41,7 @@ class App < Sinatra::Base
     @holder.each do |word|
       @string += word + " "
     end
+    @string
   end
 
 end
