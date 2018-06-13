@@ -23,6 +23,7 @@ class App < Sinatra::Base
     @number.times do
       @string += "#{params[:phrase]} "
     end
+    @string
   end
 
 end
