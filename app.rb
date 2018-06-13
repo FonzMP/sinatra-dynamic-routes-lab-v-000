@@ -18,6 +18,7 @@ class App < Sinatra::Base
     @number = params[:number].to_i
     @number.times do
       params[:phrase]
+      emd
   end
 
 end
