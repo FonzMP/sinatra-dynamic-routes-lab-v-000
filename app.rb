@@ -40,4 +40,6 @@ class App < Sinatra::Base
     "#{@holder.join(' ')}."
   end
 
+  get '/:operation/:number1/:number2'
+
 end
