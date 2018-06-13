@@ -50,6 +50,8 @@ class App < Sinatra::Base
       "#{@num1 - @num2}"
     elsif @operator == 'multiply'
       "#{@num1 * @num2}"
+    else
+      "#{@num1 / @num2}"
   end
 
 end
