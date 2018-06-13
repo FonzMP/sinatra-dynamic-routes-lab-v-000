@@ -37,6 +37,7 @@ class App < Sinatra::Base
     @holder << word3
     @holder << word4
     @holder << word5
+    @string = ""
     @holder.each do |word|
       @string += word + " "
     end
