@@ -40,6 +40,8 @@ class App < Sinatra::Base
     "#{@holder.join(' ')}."
   end
 
-  get '/:operation/:number1/:number2'
+  get '/:operation/:number1/:number2' do
+    if params[:operation] == 'add'
+  end
 
 end
