@@ -26,12 +26,7 @@ class App < Sinatra::Base
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    @number = params[:number].to_i
-    @string = ""
-    @number.times do
-      @string += "#{params[:phrase]} "
-    end
-    @string
+    @word1 = params[:word1]
   end
 
 end
