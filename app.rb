@@ -42,9 +42,10 @@ class App < Sinatra::Base
 
   get '/:operation/:number1/:number2' do
     @operator = params[:operation].downcase
+    @num1 = params[:number1].to_i
     if @operator == 'add'
       "#{params[:num1].to_i + params[:num2].to_i}"
-    elsif @operator == 'subtrat'
+    elsif @operator == 'subtract'
   end
 
 end
