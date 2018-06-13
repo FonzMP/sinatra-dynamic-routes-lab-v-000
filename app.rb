@@ -37,7 +37,7 @@ class App < Sinatra::Base
     @holder << word3
     @holder << word4
     @holder << word5
-    "#{@holder.join(' ').}"
+    "#{@holder.join(' ')}."
   end
 
 end
